@@ -1,0 +1,21 @@
+.table-heading {
+    color: purple;
+    font-family: fantasy;
+}
+
+#home-heading {
+    color: palevioletred;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+p {
+    width: 60%;
+    background-color: lightcyan;
+    font-style: oblique;
+}
+
+.llama {
+    width: 400px;
+    height: 300px;
+    border-radius: 10px;
+}
