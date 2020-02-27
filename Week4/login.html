@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Login</title>
+        <!--removeIf(production)-->
+        <link rel="stylesheet" type="text/css" href="./css/styles.css">
+        <script src="js/login.js"></script>
+        <!--endRemoveIf(production)-->
+
+        <!-- inject:css -->
+        <!-- endinject -->
+        
+        <!-- inject:js -->
+        <!-- endinject -->
+    </head>
+    <body>
+        <h1>Log In</h1>
+        <form>
+            <div>
+                Username: <input type="text" name="username" id="username">
+                <span id='username-error' style='visibility:hidden'>Please enter username.</span>
+            </div>
+            <div>
+                Password: <input type="password" name="password" id="password">
+                <span id='password-error' style='visibility:hidden'>Please enter password.</span>
+            </div>
+            <div>
+                <input type="button" value="Login" onClick="validateUser()">
+            </div> 
+        </form>
+    </body>
+</html>
